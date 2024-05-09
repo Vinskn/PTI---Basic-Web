@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.menu-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8 px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+img {
+  max-width: 17%;
+}
+
+.menu-item h2 {
+  color: #333;
+}
+
+.menu-item .description {
+  color: #666;
+}
+
+.menu-item .recipe {
+  color: #444;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.menu-item .recipe li {
+  margin-bottom: 5px;
+}
