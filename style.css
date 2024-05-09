@@ -13,12 +13,18 @@ body {
   margin: 20px;
 }
 
-img {
+.menu-item img {
   max-width: 17%;
 }
 
+
 .menu-item h2 {
   color: #333;
+  font-size: 40px;
+}
+
+.menu-item p {
+    text-align: justify;
 }
 
 .menu-item .description {
@@ -33,4 +39,54 @@ img {
 
 .menu-item .recipe li {
   margin-bottom: 5px;
+}
+
+/* Index */
+
+.judul_main {
+    text-align: center;
+    font-size: 50px;
+}
+
+.sub_main{
+    text-align: center;
+    margin: 0%;
+}
+
+.text_isi{
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.prod_main h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.prod_main h2 {
+    text-align: left;
+}
+
+.prod_main p{
+    text-align: justify;
+}
+
+.prod_main{
+    padding: 20px;
+}
+
+/* ------------------------------- */
+
+
+/* Main Dish */
+
+.button_md button{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 15px;
+}
+
+.menu_back{
+    float: right;
 }
